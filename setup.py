@@ -1056,7 +1056,7 @@ interactively save and retrieve large amounts of data.
         ext_modules=extensions,
         cmdclass=cmdclass,
         data_files=data_files,
-        extra_require={
+        extras_require={
             'doc': [
                 'sphinx >= 1.1',
                 'sphinx_rtd_theme',
